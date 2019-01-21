@@ -2,21 +2,52 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
+	<link rel='stylesheet' href='styles.css'/>
   </head>
+  
   <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
-    </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+  
+  
+	<p> Welcome to our page ! To reserve a bar, please enter the information on our page. If you need help, click <a href="help.html">here</a>.
+  
+	<div class='inputs'>
+		<div id="bar" class="choiceBox">
+			<div class = "bar">
+				<h2> Bar informations </h2>
+				
+				<ul>
+					<li>Hello!</li>
+					<li><input class="js-name" type="text" placeholder="Bar name"/></li>
+					<li><input class="js-price-by-hour" type="number" placeholder="Price by hour"/></li>
+					<li><input class="js-price-by-person" type="number" placeholder="Price by person"/></li>
+				</ul>
+				</br>
+			</div>
+		</div>
+		
+		<div id="booker" class = "choiceBox">
+			<div class = "booker">
+				<h2> Booker informations </h2>
+				<ul>
+					<li><input class="js-name" type="text" placeholder="Booker name"/></li>
+					<li><input class="js-time" type="number" placeholder="Time in h"/></li>
+					<li><input class="js-persons" type="number" placeholder="Persons"/></li>
+					<li>Deductible option <a href = "deduchelp.html">(more info here)</a> <input class="js-option" type="checkbox" placeholder="Deductible option"/></li>
+				</ul>
+				</br>
+			</div>
+		</div>
+	</div>
+	
+	<div class ='outputs'>
+		<button id="compute">Compute</button>
+		<br/>
+		
+		<div class = "choiceBox">
+		<div id="actors" class = "answer"></div>
+		</div>
+	</div>
+	
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
   </body>

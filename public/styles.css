@@ -1,0 +1,54 @@
+body {
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+
+.outputs {
+		background-color: purple;
+		text-align: center
+}
+
+.choiceBox {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+	
+}
+
+.bar {
+	
+	  background-color: red;
+
+  
+}
+
+.booker{
+	  background-color: lightblue;
+
+}
+
+.answer{
+	background-color: green;
+}
+
+.inputs {
+  	  background-color: grey;
+}
+
+
+/*
+.bar {
+	
+	position: absolute;
+	left: 0%;
+	width: 50%;
+  
+}
+
+.booker{
+	margin-left: 50%;
+}*/
