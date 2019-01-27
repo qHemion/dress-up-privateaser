@@ -5,7 +5,11 @@ ul{
 	list-style-type: none;
 }
 
+.helper{
+	  text-align: center;
+	      vertical-align: middle;
 
+}
 
 .outputs {
 		background-color: purple;
